@@ -20,7 +20,10 @@ public class Inputs {
      */
     public static String getString(String message) {
         Scanner scanner = new Scanner(System.in);
+        
         System.out.println(message);
+        
+        
         return scanner.nextLine();
     }
 

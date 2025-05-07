@@ -23,7 +23,7 @@ public class SmithFactory {
     static final int INFECCION_MAX = 9;
     
     public static Smith createRandom() {
-        var ciudad = List.of("Madrid", "New York", "Pekin", "Leganés", "Londres", "Paris");
+        var ciudad = List.of("Barcelona", "Madrid", "Pekin", "Leganés", "Londres", "Paris");
         var localizacion = new Localizacion(
                 -1,
                 -1,
